@@ -1,0 +1,15 @@
+*** Ornament tattoo studio ***
+Login page http://ornament.esy.es/account/Login
+Description:
+The purpose of this story is to test functionalities of the Login page of Ornament tattoo studio site
+Precondition: For this TC, use new created account.
+email: ognjenninic@yahoo.com
+User name:testeri
+Password: tester
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+Type correct "User name" and "Password" and click "Login" button.
+"Schedule" page is successfully displayed.
+
+Verify that the user with completed profile above form have written:'Account:[user name]'
+'Account:[user name]' title is successfully displayed.

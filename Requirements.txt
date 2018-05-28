@@ -1,0 +1,41 @@
+*** Ornament tattoo studio***
+
+Description:
+The purpose of this story is to verify and validate elements of the login page:
+Login page is accessible from home page
+It should have same header, footer and side menu as Home page
+Only registered users can login. 
+Login page should be as on wireframes
+
+Also the following functionality must be tested:
+
+Only registered users could log in
+When logging in:
+If user have completed profile it should be directed to schedule page
+If do not have completed profile it should be directed to Edit personal information page
+Appropriate error message should be shown
+All links and buttons on the page should work
+
+Requirements are updated:
+'Your Account' button is leading to Login page 
+Register page is accessible from Login Page, on Register button click 
+Aceptance criteria:
+
+If it's newly created account Email and User name should be pre-field with created profile's data.
+Above form should be message 'Account:Your account must be completed to do scheduling'
+
+If it's completed profile above form should be written:
+'Account:[user name]'
+
+Schedule button should lead to schedule page only for users with completed profile
+
+All fields are editable 
+* Profile picture can be uploaded when user clicks on avatar. File dialog should open.
+* The Full name field must be at least 6 characters in length.
+* The Password field must be at least 6 characters in length.
+* The Phone number field must be at least 9 characters in length.
+* The Address field must be at least 6 characters in length.
+
+Confirm button should submit the form
+Reset button should reset all fields except email and user name
+

@@ -1,0 +1,63 @@
+*** Ornament tattoo studio ***
+Register page http://ornament.esy.es/account/Edit_Profile
+Description: The purpose of this story is to test functionality of the Edit Profile page of Ornament tattoo studio site for new created user
+Precondition: For this TC, use new created account.
+email: ognjenninic@yahoo.com
+User name:testeri
+Password: tester
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Leave the fields empty and click "Confirm" button.
+Appropriate error messages are displayed (for mandatory fields).
+
+Verify that  when user click on avatar file dialog open and user picture can be uploaded.
+User picture is successfully displayed.
+
+Type some characters into "Full name" and "Address" input fields and click on "Reset" button.
+All input fields except "Email" and "Username" are successfully cleared.
+
+
+Enter 5 or less characters into "Full name" input field and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Full name" field
+	- "Phone number" field
+	
+Enter 6 or more characters into "Full name" input field and click on "Confirm" button.
+Error message is properly displayed for:
+	- "Phone number" field
+	
+Enter 5 or less characters into "Password" input field and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Password" field
+	- "New Password" field
+	- "Phone number" field
+
+Enter 6 or more characters into "Password" input field and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Repeat Password" field
+	- "Phone number" field
+
+Enter different password into "Repeat Password" input field than is used in previous step and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Repeat Password" field
+	- "Phone number" field
+
+Enter 5 or less characters into "Address" input field and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Address" field
+	- "Phone number" field
+
+	
+Enter 6 or more characters into "Address" input field and click on "Confirm" button.
+Error message is properly displayed for:
+	- "Phone number" field
+		
+Enter 8 or less characters into "Phone number" input field and click on "Confirm" button.
+Error messages are properly displayed for:
+	- "Phone number" field
+	
+Enter 9 or more characters into "Phone number" input field and click on "Confirm" button.
+Appropriate success confirmation message is displayed and we are at the "Login" page
+
+

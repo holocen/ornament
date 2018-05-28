@@ -1,0 +1,65 @@
+*** Ornament tattoo studio ***
+Register page http://ornament.esy.es/account/Register
+Description: The purpose of this story is to test functionalities of the Register page of Ornament tattoo studio site
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Click on "Your account" button and wait the "Login" page to open.
+"Login" page is displayed properly.
+
+Click on "Register" button
+"Register" page is displayed.
+
+Leave the fields empty and click "Register" button.
+Appropriate error messages are displayed (for all fields).
+
+Enter invalid email address into "Email" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "Email" field
+	- "User name" field
+	- "Password" field
+	- "Repeat Password" field
+
+Enter valid email address into "Email" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "User name" field
+	- "Password" field
+	- "Repeat Password" field
+
+Enter 5 or less characters into "User name" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "User name" field
+	- "Password" field
+	- "Repeat Password" field
+
+Enter 6 or more characters into "User name" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "Password" field
+	- "Repeat Password" field
+
+Enter 6 or less characters into "Password" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "Password" field
+	- "Repeat Password" field
+
+Enter 7 or more characters into "Password" input field and click on "Register" button.
+Error messages are properly displayed for:
+	- "Repeat Password" field
+
+Enter different password into "Repeat Password" input field than is used in previous step and click on "Register" button.
+Error messages are properly displayed for:
+	- "Repeat Password" field
+
+Enter valid data for all fields and click on "Register" button.
+"Login" page is successfully displayed.
+
+
+
+
+
+
+
+
+
+
+
+
+

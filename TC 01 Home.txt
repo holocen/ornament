@@ -1,0 +1,44 @@
+*** Ornament tattoo studio ***
+Home page http://ornament.esy.es/
+Description: The purpose of this story is to verify and validate the functionality of elements of the Home page Ornament tattoo studio site
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Verify that there is "Ornament" heading inside header.
+The header with "Ornament" heading is present and displayed with no issues.
+
+Verify that there is left side navigation menu with "Home Page" menu, "Gallery" menu and "Account" menu buttons in upper left corner of the page.
+Left side navigation menu with "Home" Page menu, "Gallery" menu and "Account" menu buttons are present and displayed with no issues.
+
+Click on "Home" Page menu button and observe.
+The page is refreshed and "Home" page is successfully displayed.
+
+Click on "Gallery" menu button and observe.
+The "Gallery" page is successfully displayed with no issues.
+
+Click on "Account" menu button and observe.
+The "Login" page is displayed with no issues.
+
+Verify that there is Copyright info and link at the left side of the footer.
+The Copyright info and link are present and displayed with no issues.
+
+Verify that there are Social media links at right side of the footer.
+The logos of Facebook, Twitter, LinkedIn, Instagram and RSS feed icon are present and displayed with no issues.
+
+Verify that Social media links works.
+Appropriate Facebook, Twitter, LinkedIn and Instagram pages are displayed.
+
+Verify that there are latest five artworks displayed at the right side of the centered div.
+The latest five artworks are displayed with no issues.
+
+Verify that there is "Why us text" is in the centered div, bellow the "Ornament tattoo studio" headline.
+The "Why us" text is present and displayed with no issues. 
+
+
+
+
+
+
+
+
+
